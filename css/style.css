@@ -25,7 +25,9 @@
     color: white;
   }
   
-  
+  body{
+    background-color: #dd8484;
+  }
   
   div {
     border-radius: 5px;
@@ -34,12 +36,11 @@
   }
   .main_container
   {
+  width: 500px;
+  align-content: center;
+  margin-top:50px;
+  margin-left:400px;
 
-width:600px;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
   }
   .btn-danger
   {
